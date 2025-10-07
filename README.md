@@ -1,16 +1,53 @@
-# React + Vite
+# Password Generator 🔒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React/Vite application** to generate secure passwords with customizable options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate passwords of any length
+- Include numbers and/or characters (optional)
+- Copy password to clipboard
+- Minimal and responsive UI
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Only the `src/` folder is tracked in this repository.
+- The file `src/app.css` is **ignored** to keep styles separate and avoid unnecessary commits.
+- Other build or config files are ignored via `.gitignore`.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed (v18+ recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+git clone https://github.com/<username>/<repo-name>.git
+cd <repo-name>
+
+2. Install dependencies:
+
+npm install
+
+3.Run the project:
+
+npm run dev
+
+4.Open the link shown in the terminal (usually http://localhost:5173) to see the app.
+---
+###Usage
+
+Select the length of the password.
+
+Toggle whether to include numbers or characters.
+
+Click "Generate" to create a new password.
+
+Click "Copy" to copy it to the clipboard.
+----
