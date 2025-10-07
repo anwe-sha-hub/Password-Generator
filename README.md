@@ -40,8 +40,10 @@ npm install
 npm run dev
 
 4.Open the link shown in the terminal (usually http://localhost:5173) to see the app.
+
 ---
-###Usage
+
+##Usage
 
 Select the length of the password.
 
@@ -50,4 +52,5 @@ Toggle whether to include numbers or characters.
 Click "Generate" to create a new password.
 
 Click "Copy" to copy it to the clipboard.
+
 ----
